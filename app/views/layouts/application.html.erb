@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HeatmapProto</title>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="<%= controller_name %> <%= action_name %>">
+<div class='header'>
+  <table>
+    <tr>
+      <td><%= link_to "2by2", root_path %></td>
+      <td><%= link_to "16by16", static_pages_grid_two_path %></td>
+      <td><%= link_to "Detailed", static_pages_detailed_heatmap_path %></td>
+      <td><%= link_to "Final Version", static_pages_final_version_path %></td>
+    </tr>
+  </table>
+</div>
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+.header
+  width: 100%
+  text-align: center
+  table
+    width: 50%
+    td
+      border: 1px solid black
+
+.grid-parent
+  position: relative
+  .grid
+    width: 100%
+    height: 964px
+    position: absolute
+    top: 50%
+    margin-top: 200px
+
+    table
+      width: 100%
+      height: 100%
+      td
+        border: 1px solid black
+        background-color: green
+
+#static-pages-admin
+  table
+    // border: 1px solid black
+    margin: 10px
+
+    td
+      border: 1px solid black
+      width: 100px
+      height: 100px
+      cursor: pointer
+
+#static-pages-final-version
+  .container
+    margin-top: 20px
+    width: 980px
+    height: 964px
+    background-image: image-url("gluteus-cropped.png")
+    background-size: cover
+    // green = rgba(82, 187, 30, 0.7)
+    // red = rgba(255, 0, 0, 0.7)
+    .area
+      background-color: rgba(82, 187, 30, 0.6)
+      position: absolute
+    #left-butt
+      height: 370px
+      width: 280px
+    #tailbone
+      width: 180px
+      height: 260px
+    #right-butt
+      height: 370px
+      width: 280px
+    #left-leg
+      height: 370px
+      width: 280px
+    #right-leg
+      height: 370px
+      width: 280px
+
+#static-pages-detailed-heatmap
+  .heatmap
+    width: 980px
+    height: 964px
+    margin-top: 200px
+    padding-left: 150px
+    padding-right: 150px
+    text-align: center
+
+    .right-buttocks, .left-buttocks
+      display: inline-block
+
+    .right-buttocks
+      margin-left: -30px
+
+    .box
+      display: inline-block
+      padding: 0
+
+      canvas
+        border-radius: 40px
+      &#top-left
+        width: 300px
+        height: 100px
+        margin-bottom: -15px
+      &#outer-left
+        width: 75px
+        height: 150px
+      &#center-left
+        width: 175px
+        height: 150px
+        margin-left: -20px
+      &#inner-right
+        width: 100px
+        height: 150px
+        margin-left: -20px
+      &#bottom-left
+        width: 300px
+        height: 100px
+        margin-top: -15px
+
+      &#top-right
+        width: 300px
+        height: 100px
+        margin-bottom: -15px
+      &#outer-right
+        width: 60px
+        height: 150px
+        margin-left: -20px
+      &#center-right
+        width: 175px
+        height: 150px
+        margin-left: -20px
+      &#inner-left
+        width: 100px
+        height: 150px
+      &#bottom-right
+        width: 300px
+        height: 100px
+        margin-top: -15px
+
